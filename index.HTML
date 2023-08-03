@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html style="--header-left-offset: 67px; --vertical-scroll-bar-width:17px;">
+<head>
+    <title>Website Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="root">
+        <span class="ICQEa">
+            <span class="exBFp">
+                <div style="display: block;">
+                <span class="s2CQVw3 s1YCg4k s2J-L0w">
+                    <div data-hook="header" class="mHpoe rq69J">
+                        <div data-hook="logo-container" class="ZxTk8">
+                            <div class="A0yaN We10a f055D" data-hook="logo-link-ach"></div>
+                        </div>
+                      
+    <div class="container">
+        <h1>Welcome to the Website Builder</h1>
+        <p>Select a template below to start building your website:</p>
+        <div class="templates">
+            <div class="template" onclick="loadTemplate('template1')">Template 1</div>
+            <div class="template" onclick="loadTemplate('template2')">Template 2</div>
+            <!-- Add more template options as needed -->
+        </div>
+
+        <div class="editor">
+            <label>Background Color:</label>
+            <input type="color" id="bg-color" onchange="changeBackgroundColor()">
+
+            <label>Text:</label>
+            <input type="text" id="text-input" oninput="updateText()">
+        </div>
+
+        <div class="preview">
+            <iframe id="preview-frame"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
